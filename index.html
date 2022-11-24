@@ -1,74 +1,317 @@
----
-layout: default
-title: {{ site.name }}
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/Style de vie.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Enquête sur l’application Yuka <span>- La vie sociale des données.</span>
 
-<div id="home">
-  <h1>Enquête sur l’application Yuka - La vie sociale des données</h1>
-  <h2>Mot d’introduction</h2>
-  <img src="/assets/img/Style de vie.jpg" width="100" height="200">
-  <div class="intro">
-    <p>
-      L’enquête collective suivante réunit quatre étudiantes de quatre parcours différents : l’école urbaine (Milena), l’école de marketing (Kori), 
-      de recherche (Emma) et d’affaires publiques (Xinchen), qui se sont accordées pour étudier la base de données de Yuka. 
-    </p>
-    <P>
-      Elles-mêmes utilisatrices de l’application, l’enquête a été une belle opportunité pour décrypter de plus près les critères d’évaluation des produits cosmétiques et alimentaires, les classifications de ces derniers ainsi que leur impact sur la consommation de leurs utilisateurs et de questionner la réelle indépendance d’une base de données participative (utilisateurs lambdas) 
-      et collaborative (producteurs, groupes industriels). 
-      </p>
-    <p>
-      Pour ne pas nous éparpiller, nous nous sommes volontairement focalisées sur la base de données alimentaires et cosmétiques de Yuka et 
-      non pas sur son nouvel eco-score qui mobilise des sources de données différentes (ADEME, INRAE) et une grille d’évaluation propre.
-    </p>
-  <p>
-  Il s’est d’abord agi d’explorer les possibilités de l’application et les nombreuses informations rendues disponibles par les gestionnaires 
-    de la base de données dans une démarche mise en avant de transparence, puis de se tourner vers une littérature grise 
-    plus critique dans les choix de catégories et leurs biais sur la consommation de ses utilisateurs. 
-    </p>
-    <p>
-    Ainsi, pour mieux comprendre le fonctionnement de l’IA qui se trouve derrière et entrevoir ses limites, nous avons mené un travail empirique et 
-      réflexif de notre propre utilisation de l’application en essayant chacune de modifier la fiche d’au moins un produit, 
-      d’ajouter un nouveau produit inconnu de la base de données et de repérer les biais cognitifs de l’application qui nous amenaient ou non à reposer 
-      un produit dans son rayon.
-    </p>
-    <p>
-  Rapidement, nous avons décidé de mener des entretiens auprès de l’équipe de Yuka, et en particulier de la gestionnaire actuelle de la base de données, 
-      et de contacter Stéphane Gigandet, créateur d’Open Food Facts, la base de données initiale de Yuka. 
-    </p>
-    <p>
-      Si un entretien d’une heure et demi a été mené auprès de Stéphane Gigandet, l’équipe Yuka a refusé notre proposition d’entretien car « de nombreux éléments 
-      de réponse » se trouvaient déjà sur leur site. 
-      Nous avons alors contacté des nutritionnistes, à la fois connaisseurs de l’application et critiques vis-à- vis des catégories et critères d’évaluation 
-      des produits alimentaires, et un youtubeur qui avait réalisé une vidéo très intéressante sur l’application, sans réponse. 
-    </p>
-    <p>
-      Il nous a alors semblé judicieux de créer un questionnaire en ligne semi-directif à destination des utilisateurs de l’application, eux aussi capables 
-      d’enrichir et modifier la base de données de Yuka, que nous avons partagé via nos réseaux étudiants et auprès de nos proches. 
-    </p>
-    <p>
-      Nous avons obtenu 36 réponses qui nous ont permis de mieux comprendre l’impact du système de notation sur les comportements alimentaires des usagers et 
-      la confiance qu’ils en ont. 
-    </p>
-    <p>
-      Nous avons également mené une courte revue de presse (n=7) sur les critiques et avantages perçus de Yuka, dont les résultats nous ont permis de faire 
-      dialoguer les retours du questionnaire.
-    </p>
-    <p>
-  Finalement, le site GitHub que nous avons développé se structure en trois volets principaux : d’abord la présentation de l’application, 
-      de sa base de données et de ses gestionnaires, puis l’analyse et la critique de son système de notation à partir de sources documentaires et de 
-      l’entretien mené, pour finalement étudier les biais des catégories et des représentations visuelles et numériques de l’application et 
-      leur capacité à transformer la réalité des consommateurs. 
-    </p>
-    <p>
-      A ce développement, nous avons essayé de joindre des illustrations et représentations graphiques : 
-      visuels de notre utilisation de l’application, représentation d’un rayon de grande surface en fonction des critères Yuka et graphiques issus des réponses 
-      à notre questionnaire.
-    </p>
-    <p>
-  Si cette enquête mérite un approfondissement certain au regard de l’échantillon restreint de consommateurs enquêtés et de notre unique entretien, 
-      de l’incapacité à accéder à la base de données et du cadre même de l’exercice qui incite à la critique et à la prise de recul, 
-      elle permet tout de même de comprendre le fonctionnement de Yuka et d’ouvrir des pistes de réflexion quant à la fiabilité réelle et 
-      vécue d’une base de données collaborative.
-    </p>
-  </div>
-</div>
+                </h1>
+                <p>
+                    L’enquête collective suivante réunit quatre étudiantes de quatre parcours différents : 
+                    l’école urbaine (Milena), l’école de marketing (Kori), de recherche (Emma) et d’affaires publiques (Xinchen), 
+                    qui se sont accordées pour étudier la base de données de Yuka. Elles-mêmes utilisatrices de l’application, l’enquête a été une belle opportunité pour décrypter de plus près les critères d’évaluation des produits cosmétiques et alimentaires, les classifications de ces derniers ainsi que leur impact sur la consommation de leurs utilisateurs et de questionner la réelle indépendance d’une base de données participative (utilisateurs lambdas) et collaborative (producteurs, groupes industriels). Pour ne pas nous éparpiller, nous nous sommes volontairement focalisées sur la base de données alimentaires et cosmétiques de Yuka et non pas sur son nouvel eco-score qui mobilise des sources de données différentes (ADEME, INRAE) et une grille d’évaluation propre.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>Mot <span class="bg-text">d'introduction </span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Mot d’introduction</h4>
+                    <p>
+                        Il s’est d’abord agi d’explorer les possibilités de l’application et les nombreuses informations rendues disponibles par les gestionnaires de la base de données dans une démarche mise en avant de transparence, 
+                        puis de se tourner vers une littérature grise plus critique dans les choix de catégories et leurs biais sur la consommation de ses utilisateurs. 
+                        Ainsi, pour mieux comprendre le fonctionnement de l’IA qui se trouve derrière et entrevoir ses limites, nous avons mené un travail empirique et réflexif de notre propre utilisation de 
+                        l’application en essayant chacune de modifier la fiche d’au moins un produit, d’ajouter un nouveau produit inconnu de la base de données et de repérer les biais cognitifs de l’application 
+                        qui nous amenaient ou non à reposer un produit dans son rayon.
+
+Rapidement, nous avons décidé de mener des entretiens auprès de l’équipe de Yuka, et en particulier de la gestionnaire actuelle de la base de données, et de contacter Stéphane Gigandet, créateur d’Open Food Facts, la base de données initiale de Yuka. Si un entretien d’une heure et demi a été mené auprès de Stéphane Gigandet, l’équipe Yuka a refusé notre proposition d’entretien car « de nombreux éléments de réponse » se trouvaient déjà sur leur site. Nous avons alors contacté des nutritionnistes, à la fois connaisseurs de l’application et critiques vis-à- vis des catégories et critères d’évaluation des produits alimentaires, et un youtubeur qui avait réalisé une vidéo très intéressante sur l’application, sans réponse. Il nous a alors semblé judicieux de créer un questionnaire en ligne semi-directif à destination des utilisateurs de l’application, eux aussi capables d’enrichir et modifier la base de données de Yuka, que nous avons partagé via nos réseaux étudiants et auprès de nos proches. Nous avons obtenu 36 réponses qui nous ont permis de mieux comprendre l’impact du système de notation sur les comportements alimentaires des usagers et la confiance qu’ils en ont. Nous avons également mené une courte revue de presse (n=7) sur les critiques et avantages perçus de Yuka, dont les résultats nous ont permis de faire dialoguer les retours du questionnaire.
+
+Finalement, le site GitHub que nous avons développé se structure en trois volets principaux : d’abord la présentation de l’application, de sa base de données et de ses gestionnaires, puis l’analyse et la critique de son système de notation à partir de sources documentaires et de l’entretien mené, pour finalement étudier les biais des catégories et des représentations visuelles et numériques de l’application et leur capacité à transformer la réalité des consommateurs. A ce développement, nous avons essayé de joindre des illustrations et représentations graphiques : visuels de notre utilisation de l’application, représentation d’un rayon de grande surface en fonction des critères Yuka et graphiques issus des réponses à notre questionnaire.
+
+Si cette enquête mérite un approfondissement certain au regard de l’échantillon restreint de consommateurs enquêtés et de notre unique entretien, de l’incapacité à accéder à la base de données et du cadre même de l’exercice qui incite à la critique et à la prise de recul, elle permet tout de même de comprendre le fonctionnement de Yuka et d’ouvrir des pistes de réflexion quant à la fiabilité réelle et vécue d’une base de données collaborative.
+                    </p>
+
+            </div>
+
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>Présentation <span>de l’application</span></h2>
+            </div>
+            <p>
+                Depuis la fin des années 1990, face aux nombreux scandales alimentaires qui ont éclaté, depuis la vache folle jusqu’à la viande de cheval dans les lasagnes ou plus récemment la contamination à la salmonelle, les consommateurs et les institutions sanitaires se mobilisent pour une meilleure connaissance et transparence de la composition de nos produits alimentaires quotidiens. Dans ce contexte, plusieurs applications de scan et de notation de produits alimentaires comme cosmétiques ont vu le jour pour aider les consommateurs à mieux décrypter leurs achats et à être plus conscients de ce qu’ils mettent dans leur assiette. C’est le cas de l’application française Yuka qui avec plus de 25 millions de téléchargements aujourd’hui se hissent dans le top des applications mobiles d’analyse diététique, largement recommandées par les boutiques d’applications mobiles pour IOS et Android.
+            </p>
+            <p>
+                Disponible au téléchargement depuis 2017, l’application gratuite scan le code-barre des emballages des produits grâce à la caméra des téléphones et à algorithme de reconnaissance textuelle et visuelle et puise dans la base de données de Yuka pour l’évaluer selon quatre catégories (excellent, bon, médiocre et mauvais) et selon un barème sur 100. Les critères d’évaluation et de catégorisation des produits se basent sur trois indicateurs : la qualité nutritionnelle, la présence d’additifs et la dimension biologique. La qualité nutritionnelle se fonde sur la grille du Nutri-Score du Programme National Nutrition Santé qui prend en compte pour 100 grammes d’un produit sa teneur en bons nutriments (fruits et légumes, fibres, protéines) et en nutriments à limiter (calories, acides gras saturés, sucres, sel). Néanmoins, le Nutri-score a été « lissé » via une table d’équivalence des notations pour éviter « les effets de palier » entre des aliments à la valeur nutritionnelle équivalente. La notation de A à E devient une note sur 100 et 27 paliers de notation différents pour les solides et les liquides. Ainsi, si Yuka n’a pas établi son propre modèle d’évaluation, la qualité nutritionnelle d’un produit ne représente que 60% de sa note finale. En effet, la présence d’additifs vient ensuite compléter cette notation à hauteur de 30% en moyenne mais fixe également des paliers de notation en fonction du type de risque associé à l’additif : un additif dit à risque limite automatiquement la note du produit à 49 /100. Finalement, la dimension biologique peut bonifier la note de 10% d’un produit labellisé bio en France ou à l’étranger. En bref, nous pouvons faire référence au système de notation de Yuka par la règle du 60/30/10 (d’après les références qui lui sont faites dans la presse).
+            </p>
+            <div class="about-item">
+                Notations sur l'application pour les produits :
+                    <ul class="quote">
+                        <li>+ bon</li>
+                        <li>! médiocre</li>
+                        <li>- mauvais</li>
+                    </ul>
+
+
+                (l'alcool n'est pas noté)
+                </div>
+            <p>
+                Pour ses fondateurs, Julie Chapon, François et Benoît Martin, l’objectif était de guider les consommateurs dans leur régime alimentaire en mettant en avant des aliments bons pour leur santé et d’inciter les producteurs industriels à jouer le jeu de la transparence et bannir les composants dangereux à la consommation. Présente à l’international dans des pays hispanophones, francophones ou anglophones, l’application mobile se présente comme indépendante et assure ne pas être rémunérée par des marques, ni n’être influencée dans ses critères de notation par des acteurs industriels, ni exploiter les données des utilisateurs pour la revente. Ainsi, cette société « spécialisée dans la programmation informatique » (cf. bilan comptable) génère ses revenus à partir de la version premium de l’application proposant des programmes nutritionnels personnalisés, à partir des produits dérivés (livre de recettes, calendrier) et à partir de donations des utilisateurs. L’équipe gestionnaire de l’application se compose de onze membres qui se répartissent entre pôle communication et presse et un pôle technique de développement de l’application et de gestion de la base de données à l’écoute des utilisateurs.
+            </p>
+            <p>
+                Cette équipe technique a commencé à travailler à partir d’une grande base de données en open data créée par Stéphane Gigandé en 2012 pour une application éponyme. Fondée sur une base collaborative, elle croît d’année en année grâce à la participation des consommateurs, marques et producteurs qui renseignent des fiches produits. La base de données de Yuka, qui lui est propre depuis 2018, compte aujourd’hui 1,5 millions de produits alimentaires et 500 000 produits cosmétiques référencés avec près de 800 nouveaux produits ajoutés chaque jour. Yuka a conservé le principe d’une base de données collaborative et augmente sa taille par la contribution des utilisateurs de l’application ou de marques qui transmettent directement les informations nutritionnelles de leurs produits. L’ajout ou la correction de fiches produits par les consommateurs se fait depuis l’application en scannant le code-barre du produit inconnu puis en photographiant son emballage et son tableau nutritionnel et en renseignant finalement sa catégorie alimentaire (fruits, légumes, condiments…). L’utilisateur est tenu au courant de la notation de son produit dans les heures qui suivent par mail. Les marques, quant à elles, passent par un outil d’import de données propre à la base de données de Yuka ou utilise la plateforme Alkemics. Ce mécanisme assure la plus grande exhaustivité possible de produits et assure que plus l’application est utilisée, plus elle met ses concurrentes hors compétition.
+            </p>
+            <p>
+            <h2>Comment ajouter un produit dans la base de données de Yuka ?</h2>
+            </p>
+            <ul>
+                <li>1) Étapes 1-4 : scanner et photographier- ajouter des informations brutes</li>
+                <li>Captures d'écran étapes 1 à 4</li>
+                <li>2) Étapes 5-8 : sélectionner - ajouter des information sous les critères de Yuka Captures d'écran étapes 5 à 8</li>
+                <li>3) Étapes 9-10 : c’est fini ! Captures d'écran étapes 9 et 10</li>
+            </ul>
+            <p></p>
+    
+    
+    
+    
+    
+    
+    
+            </p>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            In, laborum numquam? Quam excepturi perspiciatis quas quasi.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : London, united Kingdom
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: maclinzuniversal@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Sussex University, East Sussex</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: 07522670617</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Afrikaans, English, Spanish</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
