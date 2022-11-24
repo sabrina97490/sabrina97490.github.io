@@ -10,4 +10,4 @@ Auteur de [Code Sab](https://code-maven.com/) site.
 
 ## Experimenting with GitHub pages
 
-* [About](/about)ndfor %}
+* [About](/about)
