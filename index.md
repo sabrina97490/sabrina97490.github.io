@@ -2,7 +2,7 @@
 
 Ceci une page démo de Cayman.
 
-![Style](/assets/img/Style de vie.jpg){:height="100px" width="136px"}
+![Style](/assets/img/Style de vie.jpg){:max-width="50%"}
 
 
 
