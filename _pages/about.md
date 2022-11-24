@@ -1,9 +1,9 @@
 ---
-title: About
-author: Tao He
+title: A propos
+author: Sabrina
 date: 2022-02-04
 category: Jekyll
 layout: post
 ---
 
-This is an about page.
+C'est une page à propos
