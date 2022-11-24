@@ -1,0 +1,62 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+
+ #Enquête sur l’application Yuka - La vie sociale des données
+ ##Mot d’introduction
+  ![This is an image](https://sabrina97490.github.io/assets/img/Style de vie.jpg)
+  <img src="/assets/img/Style de vie.jpg" width="100" height="200">
+
+      L’enquête collective suivante réunit quatre étudiantes de quatre parcours différents : l’école urbaine (Milena), l’école de marketing (Kori), 
+      de recherche (Emma) et d’affaires publiques (Xinchen), qui se sont accordées pour étudier la base de données de Yuka. 
+
+      Elles-mêmes utilisatrices de l’application, l’enquête a été une belle opportunité pour décrypter de plus près les critères d’évaluation des produits cosmétiques et alimentaires, les classifications de ces derniers ainsi que leur impact sur la consommation de leurs utilisateurs et de questionner la réelle indépendance d’une base de données participative (utilisateurs lambdas) 
+      et collaborative (producteurs, groupes industriels). 
+
+      Pour ne pas nous éparpiller, nous nous sommes volontairement focalisées sur la base de données alimentaires et cosmétiques de Yuka et 
+      non pas sur son nouvel eco-score qui mobilise des sources de données différentes (ADEME, INRAE) et une grille d’évaluation propre.
+
+  Il s’est d’abord agi d’explorer les possibilités de l’application et les nombreuses informations rendues disponibles par les gestionnaires 
+    de la base de données dans une démarche mise en avant de transparence, puis de se tourner vers une littérature grise 
+    plus critique dans les choix de catégories et leurs biais sur la consommation de ses utilisateurs. 
+
+    Ainsi, pour mieux comprendre le fonctionnement de l’IA qui se trouve derrière et entrevoir ses limites, nous avons mené un travail empirique et 
+      réflexif de notre propre utilisation de l’application en essayant chacune de modifier la fiche d’au moins un produit, 
+      d’ajouter un nouveau produit inconnu de la base de données et de repérer les biais cognitifs de l’application qui nous amenaient ou non à reposer 
+      un produit dans son rayon.
+
+  Rapidement, nous avons décidé de mener des entretiens auprès de l’équipe de Yuka, et en particulier de la gestionnaire actuelle de la base de données, 
+      et de contacter Stéphane Gigandet, créateur d’Open Food Facts, la base de données initiale de Yuka. 
+
+      Si un entretien d’une heure et demi a été mené auprès de Stéphane Gigandet, l’équipe Yuka a refusé notre proposition d’entretien car « de nombreux éléments 
+      de réponse » se trouvaient déjà sur leur site. 
+      Nous avons alors contacté des nutritionnistes, à la fois connaisseurs de l’application et critiques vis-à- vis des catégories et critères d’évaluation 
+      des produits alimentaires, et un youtubeur qui avait réalisé une vidéo très intéressante sur l’application, sans réponse. 
+
+      Il nous a alors semblé judicieux de créer un questionnaire en ligne semi-directif à destination des utilisateurs de l’application, eux aussi capables 
+      d’enrichir et modifier la base de données de Yuka, que nous avons partagé via nos réseaux étudiants et auprès de nos proches. 
+
+      Nous avons obtenu 36 réponses qui nous ont permis de mieux comprendre l’impact du système de notation sur les comportements alimentaires des usagers et 
+      la confiance qu’ils en ont. 
+
+      Nous avons également mené une courte revue de presse (n=7) sur les critiques et avantages perçus de Yuka, dont les résultats nous ont permis de faire 
+      dialoguer les retours du questionnaire.
+
+  Finalement, le site GitHub que nous avons développé se structure en trois volets principaux : d’abord la présentation de l’application, 
+      de sa base de données et de ses gestionnaires, puis l’analyse et la critique de son système de notation à partir de sources documentaires et de 
+      l’entretien mené, pour finalement étudier les biais des catégories et des représentations visuelles et numériques de l’application et 
+      leur capacité à transformer la réalité des consommateurs. 
+
+      A ce développement, nous avons essayé de joindre des illustrations et représentations graphiques : 
+      visuels de notre utilisation de l’application, représentation d’un rayon de grande surface en fonction des critères Yuka et graphiques issus des réponses 
+      à notre questionnaire.
+
+
+  Si cette enquête mérite un approfondissement certain au regard de l’échantillon restreint de consommateurs enquêtés et de notre unique entretien, 
+      de l’incapacité à accéder à la base de données et du cadre même de l’exercice qui incite à la critique et à la prise de recul, 
+      elle permet tout de même de comprendre le fonctionnement de Yuka et d’ouvrir des pistes de réflexion quant à la fiabilité réelle et 
+      vécue d’une base de données collaborative.
+
+
