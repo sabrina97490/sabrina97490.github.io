@@ -1,7 +1,15 @@
 ---
-title: A propose
+layout: page
+title: A propos
+permalink: /about/
 ---
 
-# A propos de Cayman
+Some information about you!
 
-Source is in [this GitHub Repository](https://github.com/sabrina97490/sabrina97490.github.io).
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[email@domain.com](mailto:sabrina.mouedine@gmail.com)
