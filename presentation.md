@@ -1,0 +1,29 @@
+1- Présentation de l’application
+
+Depuis la fin des années 1990, face aux nombreux scandales alimentaires qui ont éclaté, depuis la vache folle jusqu’à la viande de cheval dans les lasagnes ou plus récemment la contamination à la salmonelle, les consommateurs et les institutions sanitaires se mobilisent pour une meilleure connaissance et transparence de la composition de nos produits alimentaires quotidiens. Dans ce contexte, plusieurs applications de scan et de notation de produits alimentaires comme cosmétiques ont vu le jour pour aider les consommateurs à mieux décrypter leurs achats et à être plus conscients de ce qu’ils mettent dans leur assiette. C’est le cas de l’application française Yuka qui avec plus de 25 millions de téléchargements aujourd’hui se hissent dans le top des applications mobiles d’analyse diététique, largement recommandées par les boutiques d’applications mobiles pour IOS et Android.
+
+Disponible au téléchargement depuis 2017, l’application gratuite scan le code-barre des emballages des produits grâce à la caméra des téléphones et à algorithme de reconnaissance textuelle et visuelle et puise dans la base de données de Yuka pour l’évaluer selon quatre catégories (excellent, bon, médiocre et mauvais) et selon un barème sur 100. Les critères d’évaluation et de catégorisation des produits se basent sur trois indicateurs : la qualité nutritionnelle, la présence d’additifs et la dimension biologique. La qualité nutritionnelle se fonde sur la grille du Nutri-Score du Programme National Nutrition Santé qui prend en compte pour 100 grammes d’un produit sa teneur en bons nutriments (fruits et légumes, fibres, protéines) et en nutriments à limiter (calories, acides gras saturés, sucres, sel). Néanmoins, le Nutri-score a été « lissé » via une table d’équivalence des notations pour éviter « les effets de palier » entre des aliments à la valeur nutritionnelle équivalente. La notation de A à E devient une note sur 100 et 27 paliers de notation différents pour les solides et les liquides. Ainsi, si Yuka n’a pas établi son propre modèle d’évaluation, la qualité nutritionnelle d’un produit ne représente que 60% de sa note finale. En effet, la présence d’additifs vient ensuite compléter cette notation à hauteur de 30% en moyenne mais fixe également des paliers de notation en fonction du type de risque associé à l’additif : un additif dit à risque limite automatiquement la note du produit à 49 /100. Finalement, la dimension biologique peut bonifier la note de 10% d’un produit labellisé bio en France ou à l’étranger. En bref, nous pouvons faire référence au système de notation de Yuka par la règle du 60/30/10 (d’après les références qui lui sont faites dans la presse).
+
+this is an image
+
+Notations sur l'application pour les produits :
+
++ bon
+! médiocre
+- mauvais
+
+(l'alcool n'est pas noté)
+
+Pour ses fondateurs, Julie Chapon, François et Benoît Martin, l’objectif était de guider les consommateurs dans leur régime alimentaire en mettant en avant des aliments bons pour leur santé et d’inciter les producteurs industriels à jouer le jeu de la transparence et bannir les composants dangereux à la consommation. Présente à l’international dans des pays hispanophones, francophones ou anglophones, l’application mobile se présente comme indépendante et assure ne pas être rémunérée par des marques, ni n’être influencée dans ses critères de notation par des acteurs industriels, ni exploiter les données des utilisateurs pour la revente. Ainsi, cette société « spécialisée dans la programmation informatique » (cf. bilan comptable) génère ses revenus à partir de la version premium de l’application proposant des programmes nutritionnels personnalisés, à partir des produits dérivés (livre de recettes, calendrier) et à partir de donations des utilisateurs. L’équipe gestionnaire de l’application se compose de onze membres qui se répartissent entre pôle communication et presse et un pôle technique de développement de l’application et de gestion de la base de données à l’écoute des utilisateurs.
+
+Cette équipe technique a commencé à travailler à partir d’une grande base de données en open data créée par Stéphane Gigandé en 2012 pour une application éponyme. Fondée sur une base collaborative, elle croît d’année en année grâce à la participation des consommateurs, marques et producteurs qui renseignent des fiches produits. La base de données de Yuka, qui lui est propre depuis 2018, compte aujourd’hui 1,5 millions de produits alimentaires et 500 000 produits cosmétiques référencés avec près de 800 nouveaux produits ajoutés chaque jour. Yuka a conservé le principe d’une base de données collaborative et augmente sa taille par la contribution des utilisateurs de l’application ou de marques qui transmettent directement les informations nutritionnelles de leurs produits. L’ajout ou la correction de fiches produits par les consommateurs se fait depuis l’application en scannant le code-barre du produit inconnu puis en photographiant son emballage et son tableau nutritionnel et en renseignant finalement sa catégorie alimentaire (fruits, légumes, condiments…). L’utilisateur est tenu au courant de la notation de son produit dans les heures qui suivent par mail. Les marques, quant à elles, passent par un outil d’import de données propre à la base de données de Yuka ou utilise la plateforme Alkemics. Ce mécanisme assure la plus grande exhaustivité possible de produits et assure que plus l’application est utilisée, plus elle met ses concurrentes hors compétition.
+
+    Comment ajouter un produit dans la base de données de Yuka ?
+
+1) Étapes 1-4 : scanner et photographier- ajouter des informations brutes
+
+Captures d'écran étapes 1 à 4
+
+2) Étapes 5-8 : sélectionner - ajouter des information sous les critères de Yuka Captures d'écran étapes 5 à 8
+
+3) Étapes 9-10 : c’est fini ! Captures d'écran étapes 9 et 10
