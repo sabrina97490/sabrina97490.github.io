@@ -1,9 +1,13 @@
----
-layout: default
----# Blogs{% for post in site.posts %}
- 
-<ul>
- 
-<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
- 
-</ul>{% endfor %}
+# GitHub Page de Démo
+
+Ceci une page démo de Cayman.
+
+
+
+
+Auteur de [Code Sab](https://code-maven.com/) site.
+
+
+## Experimenting with GitHub pages
+
+* [About](/about)ndfor %}
