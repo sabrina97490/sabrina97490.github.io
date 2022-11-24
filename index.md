@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # GitHub Page de Démo
 
 Ceci une page démo de Cayman.
