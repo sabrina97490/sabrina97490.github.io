@@ -2,8 +2,7 @@
 
 Ceci une page démo de Cayman.
 
-
-![Style](/Style de vie.jpg)
+![Style](/assets/img/Style de vie.jpg)
 
 Auteur de [Code Sab](https://code-maven.com/) site.
 
