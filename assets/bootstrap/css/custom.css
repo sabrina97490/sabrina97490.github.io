@@ -1,3 +1,7 @@
 img.accueil{
     height: 40%;
   }
+
+  .media {
+    height: fit-content;
+  }
